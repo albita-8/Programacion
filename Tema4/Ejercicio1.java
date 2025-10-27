@@ -12,17 +12,17 @@ public class Ejercicio1 {
         dia = escaner.nextLine() ;
 
         switch (dia) {
-            case "lunes": System.out.println("PROGRAMACION");
+            case "lunes": System.out.println("PROGRAMACION") ;
                 break;
-            case "martes": System.out.println("COMPUTER SYSTEMS");
+            case "martes": System.out.println("COMPUTER SYSTEMS") ;
                 break;
-            case "miercoles": System.out.println("BASE DE DATOS");
+            case "miercoles": System.out.println("BASE DE DATOS") ;
                 break;
-            case "jueves": System.out.println("COMPUTER SYSTEMS");
+            case "jueves": System.out.println("COMPUTER SYSTEMS") ;
                 break;
-            case "viernes": System.out.println("PROGRAMACION");
+            case "viernes": System.out.println("PROGRAMACION") ;
                 break;
-            default: System.out.println("El día introducido es incorrecto");
+            default: System.out.println("El día introducido es incorrecto") ;
         }
     }
 }
