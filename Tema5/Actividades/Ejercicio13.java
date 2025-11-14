@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Ejercicio13duda {
+public class Ejercicio13 {
     public static void main(String[] args) {
         int numero;
         boolean primo = false;
