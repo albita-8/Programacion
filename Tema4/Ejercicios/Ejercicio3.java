@@ -11,12 +11,14 @@ public class Ejercicio3 {
         horas=escaner.nextFloat() ;
 
         if (horas<40) {
-        resultado = horas * 12 ;
+            resultado = horas * 12 ;
         } else {
             resultado=horas * 16 ;
         }
 
 
         System.out.printf("El sueldo semanal que le corresponde es de %.0f euros", resultado);
+        escaner.close();
     }
+    
 }

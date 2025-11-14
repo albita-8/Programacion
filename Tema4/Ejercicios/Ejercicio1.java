@@ -24,5 +24,6 @@ public class Ejercicio1 {
                 break;
             default: System.out.println("El día introducido es incorrecto") ;
         }
+        escaner.close();
     }
 }

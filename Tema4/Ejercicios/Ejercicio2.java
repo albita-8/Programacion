@@ -20,7 +20,7 @@ public class Ejercicio2 {
                 break;
             default: System.out.println("La hora introducida no es correcta.");
         }
-
+        escaner.close();
 
     }
 }
